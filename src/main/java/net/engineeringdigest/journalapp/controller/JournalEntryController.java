@@ -1,5 +1,6 @@
 package net.engineeringdigest.journalapp.controller;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import net.engineeringdigest.journalapp.entity.JournalEntry;
 import net.engineeringdigest.journalapp.entity.User;
 import net.engineeringdigest.journalapp.service.JournalEntryService;
@@ -17,6 +18,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/journal")
+@Tag(name = "Journal APIs")
 public class JournalEntryController {
 
     @Autowired
