@@ -10,7 +10,7 @@ class JournalAppApplicationTests {
 	@Test
     @Disabled
 	void contextLoads() {
-
-	}
+        // TODO document why this method is empty
+    }
 
 }
